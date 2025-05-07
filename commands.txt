@@ -1,0 +1,26 @@
+source ~/envs/fastapi-learn/bin/activate\
+
+sudo -i -u postgres	- to start pgsql
+createdb my_pgdb	- to create db
+psql -d my_pgdb 	- switch to created db my_pgdb(name of db)
+\conninfo 		- to check db connection
+
+postgres-# \c my_pgdb 
+my_pgdb=# \dt to see all tables from db
+
+
+psql         # (open psql shell)
+\l           # (list databases)
+\c your_db   # (connect to your database)
+\dt          # (list tables)
+\d table_name  # (describe table)
+SELECT * FROM table_name;  # (see table data)
+
+
+
+
+username : postgres
+pss : 1234
+
+
+hdghhewuf
