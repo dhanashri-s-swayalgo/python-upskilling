@@ -13,7 +13,7 @@ def multiply(a: float, b: float) -> float:
 agent = FunctionAgent(
     tools=[multiply],
     llm = GoogleGenAI(
-    model="models/gemini-1.5-flash", api_key= "AIzaSyBV3Hs8UlRiGM1xPTgceqmkG8GpdwG3VTM"
+    model="models/gemini-1.5-flash", api_key= ""
     # api_key="some key",  # uses GOOGLE_API_KEY env var by default
 ),
     system_prompt="You are a helpful assistant that can multiply two numbers.",
